@@ -1,0 +1,7 @@
+20160912:
+	Virtualización vs emulación: en emulación no hay sistema operativo de por medio solo se interpreta el ejecutable del SO guest; en virtualización se instala el sistema operativo y se interpreta el SO en sí en el SO host.
+	En todos los UNIX: los siguientes son subdirectorios de root (/): dev, etc, opt, root, usr, var, tmp.
+	Para ver los logs en Fedora y en hijos de Red Hat se usa el comando journalctl (la opción -f es para seguir)
+	En todos los UNIX: para ver el tipo de archivo se usa el comando file <name_of_file>
+	La lista de módulos de Kernel (drivers o servicios basicos como daemons) que estan corriendo como procesos se puede ver con el comando lsmod; para ver todos los disponibles se enlistan los que estan en /lib/modules
+	Para ver el identificador de archivo se usa ls con opción -l, y el número indicado es el inodo
