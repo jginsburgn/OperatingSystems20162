@@ -1,0 +1,5 @@
+dpkg -l | grep -i $1
+apt-get remove -y $1
+dpkg -r $1
+dpkg -P $1
+dpkg -l | grep -i $1

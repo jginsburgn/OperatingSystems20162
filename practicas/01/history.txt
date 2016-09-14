@@ -1,0 +1,190 @@
+    1  cd /boot/
+    2  ls
+    3  cd efi/
+    4  ls
+    5  cd EFI/
+    6  ls
+    7  cd refind/
+    8  ls
+    9  exit
+   10  man usermod
+   11  man useradd
+   12  clear
+   13  man usermod
+   14  exit
+   15  clear
+   16  man usermod
+   17  man useradd
+   18  man usermod
+   19  ls
+   20  usermod -l 10rd-j0n4th4n jonathan
+   21  exit
+   22  clear
+   23  usermod -l 10rd-j0n4th4n jonathan
+   24  top -pid 3132
+   25  man top
+   26  top -p 3132
+   27  clear
+   28  top
+   29  top -p 3132
+   30  kill 3132
+   31  usermod -l 10rd-j0n4th4n jonathan
+   32  top -p 3139
+   33  kill 3139
+   34  usermod -l 10rd-j0n4th4n jonathan
+   35  kill 3343
+   36  usermod -l 10rd-j0n4th4n jonathan
+   37  clear
+   38  su 10rd-j0n4th4n 
+   39  exit
+   40  man upower
+   41  upower
+   42  upower --help
+   43  upower -m
+   44  upower -i
+   45  upower -e
+   46  upower -i /org/freedesktop/UPower/devices/line_power_ADP1
+   47  upower -i /org/freedesktop/UPower/devices/battery_BATO
+   48  upower -i /org/freedesktop/UPower/devices/DisplayDevice
+   49  arp -a
+   50  man arp
+   51  arp -a
+   52  clear
+   53  exit
+   54  cp /etc/group /root
+   55  cd
+   56  ls
+   57  cp /boot/grub/grub.cfg .
+   58  ls
+   59  pwd
+   60  ls
+   61  mkdir importantBackups
+   62  ls
+   63  mv gr* importantBackups/
+   64  ls
+   65  ls -la
+   66  ls -l
+   67  ls -l importantBackups/
+   68  ls /boot/vmlinuz-4.4.0-3
+   69  ls /boot/vmlinuz-4.4.0-3*
+   70  cp /boot/vmlinuz-4.4.0-34-lowlatency importantBackups/
+   71  ls
+   72  ls importantBackups/
+   73  dpkg -l > paquetes.txt
+   74  mv paquetes.txt importantBackups/
+   75  ls
+   76  cd importantBackups/
+   77  ls
+   78  less paquetes.txt 
+   79  lsmod
+   80  dpkg -r telnet
+   81  dpkg -l | grep -i telnet
+   82  dpkg -P telnet
+   83  dpkg -l | grep -i telnet
+   84  clear
+   85  dpkg -l | grep -i ppp
+   86  dpkg -r ppp
+   87  dpkg -l | grep -i ppp
+   88  dpkg -P ppp
+   89  dpkg -l | grep -i ppp
+   90  dpkg -P ppp
+   91  apt-get remove ppp
+   92  dpkg -P ppp
+   93  dpkg -l | grep -i ppp
+   94  clear
+   95  dpkg -l | grep -i transmission
+   96  dpkg -P transmission-gtk
+   97  dpkg -l | grep -i transmission
+   98  dpkg -P transmission-common
+   99  dpkg -l | grep -i transmission
+  100  clear
+  101  dpkg -P bluez
+  102  dpkg -r bluez
+  103  dpkg -l | grep -i bluez
+  104  apt-get remove bluez
+  105  dpkg -l | grep -i bluez
+  106  dpkg -r bluez
+  107  dpkg -P bluez
+  108  dpkg -l | grep -i bluez
+  109  clear
+  110  apt-get remove bluez-cups
+  111  ls
+  112  cd
+  113  nano 
+  114  ls
+  115  rem asdf
+  116  ./rem asdf
+  117  chmod 700 rem
+  118  ./rem asdf
+  119  nano rem
+  120  ./rem bluez-cups
+  121  dpkg -l | grep bluez-cups
+  122  ./rem bluez-obexd
+  123  nano rem
+  124  apt-get install cmake
+  125  apt-get install -y unetbootin
+  126  apt-get install -y freeglut3-dev
+  127  dpkg -l | grep -i free
+  128  dpkg -l | grep -i freeglut
+  129  apt-get install freeglut3-dev
+  130  ls
+  131  mkdir practica
+  132  mv rem practica/
+  133  cd practica/
+  134  ls
+  135  dpkg -l > debs.txt
+  136  lsmod
+  137  lsmod > modulos.txt
+  138  clear
+  139  lshw
+  140  lshw > hardware.txt
+  141  less hardware.txt 
+  142  df
+  143  man df
+  144  ldisk
+  145  fdisk -l
+  146  fdisk -l > particiones
+  147  cp /etc/passwd usuarios.todos
+  148  cp /var/log/auth.log seguridad.txt
+  149  ls
+  150  mv rem ..
+  151  ls
+  152  cd ..
+  153  ls
+  154  man zip
+  155  zip p1 practica/*
+  156  ls
+  157  cp p1.zip /home/jonathan/
+  158  cd
+  159  ls
+  160  mkdir practicas
+  161  mkdir clases
+  162  mkdir clases/20160908
+  163  mv importantBackups clases/20160908/
+  164  ls
+  165  clear
+  166  ls clases/
+  167  ls
+  168  mkdir practicas/1
+  169  mkdir practicas/01
+  170  rmdir practicas/1
+  171  ls
+  172  mv rem practicas/01/
+  173  ls
+  174  ls practica
+  175  mv practica/* practicas/01/
+  176  ls
+  177  rmdir practica
+  178  ls
+  179  mv p1.zip practicas/01/
+  180  ls
+  181  cd practicas/01/
+  182  ls
+  183  ls /home/jonathan/Downloads/sistemasOps-practica1.pdf
+  184  mv /home/jonathan/Downloads/sistemasOps-practica1.pdf .
+  185  ls
+  186  man open
+  187  open sistemasOps-practica1.pdf 
+  188  ls
+  189  history
+  190  history > history.txt

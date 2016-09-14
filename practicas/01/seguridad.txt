@@ -1,0 +1,765 @@
+Aug 19 00:12:47 MacBook systemd-logind[2769]: New seat seat0.
+Aug 19 00:12:47 MacBook systemd-logind[2769]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 19 00:12:47 MacBook systemd-logind[2769]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 19 00:12:47 MacBook systemd-logind[2769]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 19 00:12:47 MacBook systemd-logind[2769]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 19 00:12:47 MacBook systemd-logind[2769]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 19 00:12:48 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:12:48 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:12:48 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:12:48 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:12:48 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 19 00:12:48 MacBook systemd-logind[2769]: New session c1 of user lightdm.
+Aug 19 00:12:48 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 19 00:12:48 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:12:48 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:12:48 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:12:48 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:12:48 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 19 00:13:29 MacBook systemd-logind[2769]: System is powering down.
+Aug 19 00:14:18 MacBook systemd-logind[2814]: New seat seat0.
+Aug 19 00:14:18 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 19 00:14:18 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 19 00:14:18 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 19 00:14:18 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 19 00:14:18 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 19 00:14:19 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:14:19 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:14:19 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:14:19 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:14:19 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 19 00:14:19 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 19 00:14:19 MacBook systemd-logind[2814]: New session c1 of user lightdm.
+Aug 19 00:14:19 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:14:19 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:14:19 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:14:19 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:14:19 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 19 00:14:25 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 19 00:14:25 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 19 00:14:25 MacBook systemd-logind[2814]: New session c2 of user jonathan.
+Aug 19 00:14:25 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 19 00:14:25 MacBook gnome-keyring-daemon[3189]: The SSH agent was already initialized
+Aug 19 00:14:25 MacBook gnome-keyring-daemon[3189]: The Secret Service was already initialized
+Aug 19 00:14:25 MacBook gnome-keyring-daemon[3189]: The PKCS#11 component was already initialized
+Aug 19 00:14:25 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.35 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 19 00:14:31 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 19 00:14:31 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 19 00:14:31 MacBook pkexec[3698]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 19 00:16:19 MacBook systemd-logind[2814]: Removed session c1.
+Aug 19 00:16:19 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Aug 19 00:16:22 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/su
+Aug 19 00:16:22 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Aug 19 00:16:22 MacBook su[3849]: Successful su for root by root
+Aug 19 00:16:22 MacBook su[3849]: + /dev/pts/6 root:root
+Aug 19 00:16:22 MacBook su[3849]: pam_unix(su:session): session opened for user root by jonathan(uid=0)
+Aug 19 00:16:22 MacBook su[3849]: pam_systemd(su:session): Cannot create session: Already running in a session
+Aug 19 00:16:51 MacBook su[3849]: pam_unix(su:session): session closed for user root
+Aug 19 00:16:51 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Aug 19 00:17:01 MacBook CRON[3867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 19 00:17:01 MacBook CRON[3867]: pam_unix(cron:session): session closed for user root
+Aug 19 00:17:02 MacBook systemd-logind[2814]: System is powering down.
+Aug 19 00:25:47 MacBook systemd-logind[2743]: New seat seat0.
+Aug 19 00:25:47 MacBook systemd-logind[2743]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 19 00:25:47 MacBook systemd-logind[2743]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 19 00:25:47 MacBook systemd-logind[2743]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 19 00:25:47 MacBook systemd-logind[2743]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 19 00:25:47 MacBook systemd-logind[2743]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 19 00:25:48 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:25:48 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:25:48 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:25:48 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:25:48 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 19 00:25:48 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 19 00:25:48 MacBook systemd-logind[2743]: New session c1 of user lightdm.
+Aug 19 00:25:48 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:25:48 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:25:48 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:25:48 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:25:48 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 19 00:25:59 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 19 00:25:59 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 19 00:25:59 MacBook systemd-logind[2743]: New session c2 of user jonathan.
+Aug 19 00:25:59 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 19 00:26:00 MacBook gnome-keyring-daemon[3239]: The SSH agent was already initialized
+Aug 19 00:26:00 MacBook gnome-keyring-daemon[3239]: The Secret Service was already initialized
+Aug 19 00:26:00 MacBook gnome-keyring-daemon[3239]: The PKCS#11 component was already initialized
+Aug 19 00:26:00 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.39 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 19 00:26:06 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 19 00:26:06 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 19 00:26:06 MacBook pkexec[3694]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 19 00:26:38 MacBook systemd-logind[2743]: System is powering down.
+Aug 19 00:26:38 MacBook systemd: pam_unix(systemd-user:session): session closed for user jonathan
+Aug 19 00:27:31 MacBook systemd-logind[2653]: New seat seat0.
+Aug 19 00:27:31 MacBook systemd-logind[2653]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 19 00:27:31 MacBook systemd-logind[2653]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 19 00:27:31 MacBook systemd-logind[2653]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 19 00:27:31 MacBook systemd-logind[2653]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 19 00:27:31 MacBook systemd-logind[2653]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 19 00:27:32 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:27:32 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:27:32 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:27:32 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:27:32 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 19 00:27:32 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 19 00:27:32 MacBook systemd-logind[2653]: New session c1 of user lightdm.
+Aug 19 00:27:32 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:27:32 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:27:32 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:27:32 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:27:32 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 19 00:27:38 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 19 00:27:38 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 19 00:27:38 MacBook systemd-logind[2653]: New session c2 of user jonathan.
+Aug 19 00:27:38 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 19 00:27:39 MacBook gnome-keyring-daemon[3128]: The SSH agent was already initialized
+Aug 19 00:27:39 MacBook gnome-keyring-daemon[3128]: The Secret Service was already initialized
+Aug 19 00:27:39 MacBook gnome-keyring-daemon[3128]: The PKCS#11 component was already initialized
+Aug 19 00:27:39 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.38 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 19 00:27:45 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 19 00:27:45 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 19 00:27:45 MacBook pkexec[3638]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 19 00:29:32 MacBook systemd-logind[2653]: Removed session c1.
+Aug 19 00:29:32 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Aug 19 00:29:41 MacBook systemd-logind[2653]: System is powering down.
+Aug 19 00:43:26 MacBook systemd-logind[2643]: New seat seat0.
+Aug 19 00:43:26 MacBook systemd-logind[2643]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 19 00:43:26 MacBook systemd-logind[2643]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 19 00:43:26 MacBook systemd-logind[2643]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 19 00:43:26 MacBook systemd-logind[2643]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 19 00:43:26 MacBook systemd-logind[2643]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 19 00:43:27 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:43:27 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:43:27 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:43:27 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:43:27 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 19 00:43:27 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 19 00:43:27 MacBook systemd-logind[2643]: New session c1 of user lightdm.
+Aug 19 00:43:27 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 00:43:27 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 00:43:27 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 00:43:27 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 00:43:27 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 19 00:43:38 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 19 00:43:38 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 19 00:43:38 MacBook systemd-logind[2643]: New session c2 of user jonathan.
+Aug 19 00:43:38 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 19 00:43:40 MacBook gnome-keyring-daemon[3240]: The SSH agent was already initialized
+Aug 19 00:43:40 MacBook gnome-keyring-daemon[3240]: The Secret Service was already initialized
+Aug 19 00:43:40 MacBook gnome-keyring-daemon[3240]: The PKCS#11 component was already initialized
+Aug 19 00:43:40 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.39 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 19 00:43:46 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 19 00:43:46 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 19 00:43:46 MacBook pkexec[3696]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 19 00:45:17 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/sbin/shutdown -h now
+Aug 19 00:45:17 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Aug 19 22:06:03 MacBook systemd-logind[2539]: New seat seat0.
+Aug 19 22:06:03 MacBook systemd-logind[2539]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 19 22:06:03 MacBook systemd-logind[2539]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 19 22:06:03 MacBook systemd-logind[2539]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 19 22:06:03 MacBook systemd-logind[2539]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 19 22:06:03 MacBook systemd-logind[2539]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 19 22:06:04 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 22:06:04 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 22:06:04 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 22:06:04 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 22:06:04 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 19 22:06:04 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 19 22:06:04 MacBook systemd-logind[2539]: New session c1 of user lightdm.
+Aug 19 22:06:04 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 22:06:04 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 22:06:04 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 22:06:04 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 22:06:04 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 19 22:06:13 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 19 22:06:13 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 19 22:06:13 MacBook systemd-logind[2539]: New session c2 of user jonathan.
+Aug 19 22:06:13 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 19 22:06:15 MacBook gnome-keyring-daemon[3189]: The SSH agent was already initialized
+Aug 19 22:06:15 MacBook gnome-keyring-daemon[3189]: The Secret Service was already initialized
+Aug 19 22:06:15 MacBook gnome-keyring-daemon[3189]: The PKCS#11 component was already initialized
+Aug 19 22:06:15 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.37 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 19 22:06:21 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 19 22:06:21 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 19 22:06:21 MacBook pkexec[3593]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 19 22:07:12 MacBook systemd-logind[2539]: System is powering down.
+Aug 19 22:07:12 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Aug 19 22:08:08 MacBook systemd-logind[2676]: New seat seat0.
+Aug 19 22:08:08 MacBook systemd-logind[2676]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 19 22:08:08 MacBook systemd-logind[2676]: Watching system buttons on /dev/input/event6 (Video Bus)
+Aug 19 22:08:08 MacBook systemd-logind[2676]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 19 22:08:08 MacBook systemd-logind[2676]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 19 22:08:08 MacBook systemd-logind[2676]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 19 22:08:10 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 22:08:10 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 22:08:10 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 22:08:10 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 22:08:10 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 19 22:08:10 MacBook systemd-logind[2676]: New session c1 of user lightdm.
+Aug 19 22:08:10 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 19 22:08:10 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 19 22:08:10 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 19 22:08:10 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 19 22:08:10 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 19 22:08:10 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 19 22:08:16 MacBook systemd-logind[2676]: System is powering down.
+Aug 22 15:39:23 MacBook systemd-logind[2682]: New seat seat0.
+Aug 22 15:39:23 MacBook systemd-logind[2682]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 22 15:39:23 MacBook systemd-logind[2682]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 22 15:39:23 MacBook systemd-logind[2682]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 22 15:39:23 MacBook systemd-logind[2682]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 22 15:39:23 MacBook systemd-logind[2682]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 22 15:39:24 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 15:39:24 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 15:39:24 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 15:39:24 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 15:39:24 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 22 15:39:24 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 22 15:39:24 MacBook systemd-logind[2682]: New session c1 of user lightdm.
+Aug 22 15:39:25 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 15:39:25 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 15:39:25 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 15:39:25 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 15:39:25 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 22 15:39:31 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 22 15:39:31 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 22 15:39:31 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 22 15:39:31 MacBook systemd-logind[2682]: New session c2 of user jonathan.
+Aug 22 15:39:32 MacBook gnome-keyring-daemon[3129]: The SSH agent was already initialized
+Aug 22 15:39:32 MacBook gnome-keyring-daemon[3129]: The Secret Service was already initialized
+Aug 22 15:39:32 MacBook gnome-keyring-daemon[3129]: The PKCS#11 component was already initialized
+Aug 22 15:39:32 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 22 15:39:38 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 22 15:39:38 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 22 15:39:38 MacBook pkexec[3521]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 22 15:41:25 MacBook systemd-logind[2682]: Removed session c1.
+Aug 22 15:41:25 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Aug 22 16:13:39 MacBook systemd-logind[2682]: Lid closed.
+Aug 22 16:17:01 MacBook CRON[3700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 22 16:17:01 MacBook CRON[3700]: pam_unix(cron:session): session closed for user root
+Aug 22 16:27:35 MacBook systemd-logind[2682]: Lid opened.
+Aug 22 16:27:36 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 16:27:36 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 16:27:36 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 16:27:36 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 16:27:36 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 22 16:27:36 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 22 16:27:36 MacBook systemd-logind[2682]: New session c3 of user lightdm.
+Aug 22 16:27:37 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 16:27:37 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 16:27:37 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 16:27:37 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 16:27:37 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 22 16:27:50 MacBook systemd-logind[2682]: Power key pressed.
+Aug 22 16:27:50 MacBook systemd-logind[2682]: Powering Off...
+Aug 22 16:27:50 MacBook systemd-logind[2682]: System is powering down.
+Aug 22 16:31:38 MacBook systemd-logind[2646]: New seat seat0.
+Aug 22 16:31:38 MacBook systemd-logind[2646]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 22 16:31:38 MacBook systemd-logind[2646]: Watching system buttons on /dev/input/event8 (Video Bus)
+Aug 22 16:31:38 MacBook systemd-logind[2646]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 22 16:31:38 MacBook systemd-logind[2646]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 22 16:31:38 MacBook systemd-logind[2646]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 22 16:31:40 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 16:31:40 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 16:31:40 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 16:31:40 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 16:31:40 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 22 16:31:40 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 22 16:31:40 MacBook systemd-logind[2646]: New session c1 of user lightdm.
+Aug 22 16:31:40 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 16:31:40 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 16:31:40 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 16:31:40 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 16:31:40 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 22 16:31:48 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 22 16:31:48 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 22 16:31:48 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 22 16:31:48 MacBook systemd-logind[2646]: New session c2 of user jonathan.
+Aug 22 16:31:49 MacBook gnome-keyring-daemon[3122]: The SSH agent was already initialized
+Aug 22 16:31:49 MacBook gnome-keyring-daemon[3122]: The Secret Service was already initialized
+Aug 22 16:31:49 MacBook gnome-keyring-daemon[3122]: The PKCS#11 component was already initialized
+Aug 22 16:31:49 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.39 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 22 16:31:55 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 22 16:31:55 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 22 16:31:55 MacBook pkexec[3519]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 22 16:33:00 MacBook systemd-logind[2646]: System is powering down.
+Aug 22 21:41:36 MacBook systemd-logind[2708]: New seat seat0.
+Aug 22 21:41:36 MacBook systemd-logind[2708]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 22 21:41:36 MacBook systemd-logind[2708]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 22 21:41:36 MacBook systemd-logind[2708]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 22 21:41:36 MacBook systemd-logind[2708]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 22 21:41:36 MacBook systemd-logind[2708]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 22 21:41:37 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 21:41:37 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 21:41:37 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 21:41:37 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 21:41:37 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 22 21:41:37 MacBook systemd-logind[2708]: New session c1 of user lightdm.
+Aug 22 21:41:37 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 22 21:41:37 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 21:41:37 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 21:41:37 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 21:41:37 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 21:41:37 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 22 21:41:51 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 22 21:41:51 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 22 21:41:51 MacBook systemd-logind[2708]: New session c2 of user jonathan.
+Aug 22 21:41:51 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 22 21:41:52 MacBook gnome-keyring-daemon[3236]: The SSH agent was already initialized
+Aug 22 21:41:52 MacBook gnome-keyring-daemon[3236]: The Secret Service was already initialized
+Aug 22 21:41:52 MacBook gnome-keyring-daemon[3236]: The PKCS#11 component was already initialized
+Aug 22 21:41:52 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.39 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 22 21:41:58 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 22 21:41:58 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 22 21:41:58 MacBook pkexec[3685]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 22 21:43:48 MacBook systemd-logind[2708]: Removed session c1.
+Aug 22 21:43:48 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Aug 22 21:48:05 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 22 21:48:05 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 22 21:48:05 MacBook pkexec[4219]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 22 21:51:02 MacBook sudo: pam_unix(sudo:auth): authentication failure; logname=jonathan uid=1000 euid=0 tty=/dev/pts/2 ruser=jonathan rhost=  user=jonathan
+Aug 22 21:51:07 MacBook sudo: jonathan : TTY=pts/2 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/apt-get update
+Aug 22 21:51:07 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Aug 22 21:51:29 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Aug 22 21:52:13 MacBook sudo: jonathan : TTY=pts/2 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/apt-get install firmware-b43-installer
+Aug 22 21:52:13 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Aug 22 21:52:58 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Aug 22 21:54:05 MacBook pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Aug 22 21:54:05 MacBook pkexec: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Aug 22 21:54:05 MacBook pkexec[5170]: jonathan: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonathan] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Aug 22 21:56:23 MacBook polkitd(authority=local): Operator of unix-session:c2 successfully authenticated as unix-user:jonathan to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.61 [/usr/bin/python3 /usr/bin/update-manager] (owned by unix-user:jonathan)
+Aug 22 21:59:27 MacBook systemd-logind[2708]: System is rebooting.
+Aug 22 22:00:21 MacBook systemd-logind[2814]: New seat seat0.
+Aug 22 22:00:21 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 22 22:00:21 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 22 22:00:21 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 22 22:00:21 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 22 22:00:21 MacBook systemd-logind[2814]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 22 22:00:22 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 22:00:22 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 22:00:22 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 22:00:22 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 22:00:22 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 22 22:00:22 MacBook systemd-logind[2814]: New session c1 of user lightdm.
+Aug 22 22:00:22 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 22 22:00:23 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 22 22:00:23 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 22 22:00:23 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 22 22:00:23 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 22 22:00:23 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 22 22:00:31 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 22 22:00:31 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 22 22:00:31 MacBook systemd-logind[2814]: New session c2 of user jonathan.
+Aug 22 22:00:31 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 22 22:00:32 MacBook gnome-keyring-daemon[3277]: The SSH agent was already initialized
+Aug 22 22:00:32 MacBook gnome-keyring-daemon[3277]: The Secret Service was already initialized
+Aug 22 22:00:32 MacBook gnome-keyring-daemon[3277]: The PKCS#11 component was already initialized
+Aug 22 22:00:32 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.39 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 22 22:02:22 MacBook systemd-logind[2814]: Removed session c1.
+Aug 22 22:17:01 MacBook CRON[4233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 22 22:17:01 MacBook CRON[4233]: pam_unix(cron:session): session closed for user root
+Aug 22 22:25:10 MacBook systemd-logind[2814]: System is powering down.
+Aug 25 15:42:31 MacBook systemd-logind[2482]: New seat seat0.
+Aug 25 15:42:31 MacBook systemd-logind[2482]: Watching system buttons on /dev/input/event3 (Power Button)
+Aug 25 15:42:31 MacBook systemd-logind[2482]: Watching system buttons on /dev/input/event4 (Video Bus)
+Aug 25 15:42:31 MacBook systemd-logind[2482]: Watching system buttons on /dev/input/event1 (Power Button)
+Aug 25 15:42:31 MacBook systemd-logind[2482]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Aug 25 15:42:31 MacBook systemd-logind[2482]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Aug 25 15:42:33 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 25 15:42:33 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 25 15:42:33 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 25 15:42:33 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 25 15:42:33 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 25 15:42:33 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 25 15:42:33 MacBook systemd-logind[2482]: New session c1 of user lightdm.
+Aug 25 15:42:33 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 25 15:42:33 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 25 15:42:33 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 25 15:42:33 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 25 15:42:33 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 25 15:42:37 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 25 15:42:37 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Aug 25 15:42:37 MacBook systemd-logind[2482]: New session c2 of user jonathan.
+Aug 25 15:42:37 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Aug 25 15:42:39 MacBook gnome-keyring-daemon[3159]: The SSH agent was already initialized
+Aug 25 15:42:39 MacBook gnome-keyring-daemon[3159]: The Secret Service was already initialized
+Aug 25 15:42:39 MacBook gnome-keyring-daemon[3159]: The PKCS#11 component was already initialized
+Aug 25 15:42:39 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 25 15:44:33 MacBook systemd-logind[2482]: Removed session c1.
+Aug 25 15:44:33 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Aug 25 15:48:25 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 25 15:48:25 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 25 15:48:25 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 25 15:48:25 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 25 15:48:25 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Aug 25 15:48:25 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Aug 25 15:48:25 MacBook systemd-logind[2482]: New session c3 of user lightdm.
+Aug 25 15:58:44 MacBook systemd-logind[2482]: Operation 'sleep' finished.
+Aug 25 15:58:45 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 25 15:58:45 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Aug 25 15:58:45 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Aug 25 15:58:45 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Aug 25 15:58:45 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Aug 25 15:58:53 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Aug 25 16:00:44 MacBook systemd-logind[2482]: Removed session c3.
+Aug 25 16:00:44 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Aug 25 16:10:39 MacBook sudo: jonathan : TTY=pts/0 ; PWD=/home/jonathan ; USER=root ; COMMAND=/sbin/fdisk -l
+Aug 25 16:10:39 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Aug 25 16:10:39 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 16:17:01 MacBook CRON[4956]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 16:17:01 MacBook CRON[4956]: pam_unix(cron:session): session closed for user root
+Aug 25 16:18:49 MacBook login[3306]: pam_unix(login:session): session opened for user jonathan by LOGIN(uid=0)
+Aug 25 16:18:49 MacBook systemd-logind[2482]: New session 2 of user jonathan.
+Aug 25 16:19:19 MacBook login[3306]: pam_unix(login:session): session closed for user jonathan
+Aug 25 16:19:19 MacBook systemd-logind[2482]: Removed session 2.
+Aug 25 16:19:53 MacBook login[5120]: pam_unix(login:auth): check pass; user unknown
+Aug 25 16:19:53 MacBook login[5120]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Aug 25 16:19:56 MacBook login[5120]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Aug 25 16:46:06 MacBook systemd-logind[2482]: System is powering down.
+Aug 25 16:46:06 MacBook systemd: pam_unix(systemd-user:session): session closed for user jonathan
+Sep  1 16:45:55 MacBook systemd-logind[2651]: New seat seat0.
+Sep  1 16:45:55 MacBook systemd-logind[2651]: Watching system buttons on /dev/input/event3 (Power Button)
+Sep  1 16:45:55 MacBook systemd-logind[2651]: Watching system buttons on /dev/input/event4 (Video Bus)
+Sep  1 16:45:55 MacBook systemd-logind[2651]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  1 16:45:55 MacBook systemd-logind[2651]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Sep  1 16:45:55 MacBook systemd-logind[2651]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  1 16:45:56 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  1 16:45:56 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  1 16:45:56 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  1 16:45:56 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  1 16:45:56 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Sep  1 16:45:56 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Sep  1 16:45:56 MacBook systemd-logind[2651]: New session c1 of user lightdm.
+Sep  1 16:45:56 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  1 16:45:57 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  1 16:45:57 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  1 16:45:57 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  1 16:45:57 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Sep  1 16:46:00 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Sep  1 16:46:00 MacBook lightdm: pam_unix(lightdm:session): session opened for user jonathan by (uid=0)
+Sep  1 16:46:00 MacBook systemd: pam_unix(systemd-user:session): session opened for user jonathan by (uid=0)
+Sep  1 16:46:00 MacBook systemd-logind[2651]: New session c2 of user jonathan.
+Sep  1 16:46:01 MacBook gnome-keyring-daemon[3139]: The SSH agent was already initialized
+Sep  1 16:46:01 MacBook gnome-keyring-daemon[3139]: The Secret Service was already initialized
+Sep  1 16:46:01 MacBook gnome-keyring-daemon[3139]: The PKCS#11 component was already initialized
+Sep  1 16:46:02 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.43 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  1 16:47:16 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/ls /boot/efi/
+Sep  1 16:47:16 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 16:47:16 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 16:47:19 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/ls /boot/efi/
+Sep  1 16:47:19 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 16:47:19 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 16:47:44 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/ls -la /boot/efi/
+Sep  1 16:47:44 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 16:47:44 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 16:47:49 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/ls -la /boot/efi/EFI
+Sep  1 16:47:49 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 16:47:49 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 16:47:56 MacBook systemd-logind[2651]: Removed session c1.
+Sep  1 16:47:56 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Sep  1 16:47:57 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/ls -la /boot/efi/EFI/refind
+Sep  1 16:47:57 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 16:47:57 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 16:49:33 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/less /boot/efi/EFI/refind/refind.conf
+Sep  1 16:49:33 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 16:49:56 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 17:07:39 MacBook sudo: jonathan : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/su
+Sep  1 17:07:39 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 17:07:39 MacBook su[4149]: Successful su for root by root
+Sep  1 17:07:39 MacBook su[4149]: + /dev/pts/6 root:root
+Sep  1 17:07:39 MacBook su[4149]: pam_unix(su:session): session opened for user root by jonathan(uid=0)
+Sep  1 17:07:39 MacBook su[4149]: pam_systemd(su:session): Cannot create session: Already running in a session
+Sep  1 17:09:53 MacBook su[4149]: pam_unix(su:session): session closed for user root
+Sep  1 17:09:53 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 17:11:39 MacBook login[3670]: pam_unix(login:session): session opened for user jonathan by LOGIN(uid=0)
+Sep  1 17:11:39 MacBook systemd-logind[2651]: New session 1 of user jonathan.
+Sep  1 17:13:32 MacBook sudo: jonathan : TTY=tty1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/su
+Sep  1 17:13:32 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 17:13:32 MacBook su[4513]: Successful su for root by root
+Sep  1 17:13:32 MacBook su[4513]: + /dev/tty1 root:root
+Sep  1 17:13:32 MacBook su[4513]: pam_unix(su:session): session opened for user root by jonathan(uid=0)
+Sep  1 17:13:32 MacBook su[4513]: pam_systemd(su:session): Cannot create session: Already running in a session
+Sep  1 17:14:55 MacBook su[4513]: pam_unix(su:session): session closed for user root
+Sep  1 17:14:55 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 17:14:56 MacBook login[3670]: pam_unix(login:session): session closed for user jonathan
+Sep  1 17:14:56 MacBook systemd-logind[2651]: Removed session 1.
+Sep  1 17:15:00 MacBook login[4593]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Sep  1 17:15:03 MacBook login[4593]: FAILED LOGIN (1) on '/dev/tty1' FOR 'root', Authentication failure
+Sep  1 17:15:22 MacBook login[4593]: pam_unix(login:session): session opened for user jonathan by LOGIN(uid=0)
+Sep  1 17:15:22 MacBook systemd-logind[2651]: New session 2 of user jonathan.
+Sep  1 17:17:01 MacBook CRON[4645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  1 17:17:01 MacBook CRON[4645]: pam_unix(cron:session): session closed for user root
+Sep  1 17:20:42 MacBook sudo: jonathan : TTY=tty1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/passwd
+Sep  1 17:20:42 MacBook sudo: pam_unix(sudo:session): session opened for user root by jonathan(uid=0)
+Sep  1 17:20:45 MacBook passwd[4707]: pam_unix(passwd:chauthtok): password changed for root
+Sep  1 17:20:45 MacBook passwd[4707]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Sep  1 17:20:45 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  1 17:20:50 MacBook su[4709]: Successful su for root by jonathan
+Sep  1 17:20:50 MacBook su[4709]: + /dev/tty1 jonathan:root
+Sep  1 17:20:50 MacBook su[4709]: pam_unix(su:session): session opened for user root by jonathan(uid=1000)
+Sep  1 17:20:50 MacBook su[4709]: pam_systemd(su:session): Cannot create session: Already running in a session
+Sep  1 17:20:51 MacBook su[4709]: pam_unix(su:session): session closed for user root
+Sep  1 17:20:51 MacBook login[4593]: pam_unix(login:session): session closed for user jonathan
+Sep  1 17:20:51 MacBook systemd-logind[2651]: Removed session 2.
+Sep  1 17:20:54 MacBook login[4723]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  1 17:20:54 MacBook systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  1 17:20:54 MacBook systemd-logind[2651]: New session 4 of user root.
+Sep  1 17:20:54 MacBook login[4761]: ROOT LOGIN  on '/dev/tty1'
+Sep  1 17:23:07 MacBook systemd: pam_unix(systemd-user:session): session closed for user jonathan
+Sep  1 17:24:05 MacBook lightdm: pam_unix(lightdm:session): session closed for user jonathan
+Sep  1 17:24:05 MacBook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.43, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep  1 17:24:06 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  1 17:24:06 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  1 17:24:06 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  1 17:24:06 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  1 17:24:06 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Sep  1 17:24:06 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Sep  1 17:24:06 MacBook systemd-logind[2651]: New session c3 of user lightdm.
+Sep  1 17:24:06 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  1 17:24:06 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  1 17:24:06 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  1 17:24:06 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  1 17:24:06 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "jonathan"
+Sep  1 17:24:25 MacBook systemd-logind[2651]: Removed session c2.
+Sep  1 17:24:48 MacBook usermod[5043]: change user name 'jonathan' to '10rd-j0n4th4n'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in group 'adm'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in group 'cdrom'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in group 'sudo'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in group 'audio'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in group 'dip'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in group 'plugdev'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in group 'lpadmin'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in group 'sambashare'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in shadow group 'adm'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in shadow group 'cdrom'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in shadow group 'sudo'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in shadow group 'audio'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in shadow group 'dip'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in shadow group 'plugdev'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in shadow group 'lpadmin'
+Sep  1 17:24:48 MacBook usermod[5043]: change 'jonathan' to '10rd-j0n4th4n' in shadow group 'sambashare'
+Sep  1 17:24:59 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  1 17:24:59 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  1 17:24:59 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  1 17:24:59 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  1 17:24:59 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "10rd-j0n4th4n"
+Sep  1 17:25:02 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Sep  1 17:25:02 MacBook lightdm: pam_unix(lightdm:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  1 17:25:02 MacBook systemd: pam_unix(systemd-user:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  1 17:25:02 MacBook systemd-logind[2651]: New session c4 of user 10rd-j0n4th4n.
+Sep  1 17:25:03 MacBook gnome-keyring-daemon[5066]: The SSH agent was already initialized
+Sep  1 17:25:03 MacBook gnome-keyring-daemon[5066]: The Secret Service was already initialized
+Sep  1 17:25:03 MacBook gnome-keyring-daemon[5066]: The PKCS#11 component was already initialized
+Sep  1 17:25:03 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.100 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  1 17:26:06 MacBook systemd-logind[2651]: Removed session c3.
+Sep  1 17:26:06 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Sep  1 17:26:10 MacBook polkitd(authority=local): Unregistered Authentication Agent for unix-session:c4 (system bus name :1.100, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep  1 17:26:10 MacBook lightdm: pam_unix(lightdm:session): session closed for user 10rd-j0n4th4n
+Sep  1 17:26:10 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  1 17:26:10 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  1 17:26:10 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  1 17:26:10 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  1 17:26:10 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Sep  1 17:26:10 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Sep  1 17:26:10 MacBook systemd-logind[2651]: New session c5 of user lightdm.
+Sep  1 17:26:11 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  1 17:26:11 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  1 17:26:11 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  1 17:26:11 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  1 17:26:11 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "10rd-j0n4th4n"
+Sep  1 17:26:30 MacBook systemd-logind[2651]: Removed session c4.
+Sep  1 17:26:30 MacBook systemd: pam_unix(systemd-user:session): session closed for user 10rd-j0n4th4n
+Sep  1 17:26:33 MacBook su[5637]: Successful su for 10rd-j0n4th4n by root
+Sep  1 17:26:33 MacBook su[5637]: + /dev/tty1 root:10rd-j0n4th4n
+Sep  1 17:26:33 MacBook su[5637]: pam_unix(su:session): session opened for user 10rd-j0n4th4n by root(uid=0)
+Sep  1 17:26:33 MacBook su[5637]: pam_systemd(su:session): Cannot create session: Already running in a session
+Sep  1 17:26:37 MacBook su[5637]: pam_unix(su:session): session closed for user 10rd-j0n4th4n
+Sep  1 17:26:39 MacBook login[4723]: pam_unix(login:session): session closed for user root
+Sep  1 17:26:39 MacBook systemd-logind[2651]: Removed session 4.
+Sep  1 17:26:39 MacBook systemd: pam_unix(systemd-user:session): session closed for user root
+Sep  1 17:26:49 MacBook login[5650]: pam_unix(login:session): session opened for user 10rd-j0n4th4n by LOGIN(uid=0)
+Sep  1 17:26:49 MacBook systemd-logind[2651]: New session 5 of user 10rd-j0n4th4n.
+Sep  1 17:26:49 MacBook systemd: pam_unix(systemd-user:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  1 17:26:51 MacBook login[5650]: pam_unix(login:session): session closed for user 10rd-j0n4th4n
+Sep  1 17:26:51 MacBook systemd-logind[2651]: Removed session 5.
+Sep  1 17:26:51 MacBook systemd: pam_unix(systemd-user:session): session closed for user 10rd-j0n4th4n
+Sep  1 17:26:53 MacBook login[5707]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Sep  1 17:26:53 MacBook systemd-logind[2651]: New session 6 of user root.
+Sep  1 17:26:53 MacBook systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  1 17:26:53 MacBook login[5750]: ROOT LOGIN  on '/dev/tty1'
+Sep  1 17:37:50 MacBook systemd-logind[2651]: Lid closed.
+Sep  1 17:37:50 MacBook systemd-logind[2651]: Suspending...
+Sep  1 18:37:24 MacBook systemd-logind[2651]: Lid opened.
+Sep  1 18:37:24 MacBook systemd-logind[2651]: Operation 'sleep' finished.
+Sep  1 18:37:29 MacBook login[5707]: pam_unix(login:session): session closed for user root
+Sep  1 18:37:29 MacBook systemd-logind[2651]: Removed session 6.
+Sep  1 18:37:29 MacBook systemd: pam_unix(systemd-user:session): session closed for user root
+Sep  1 18:37:49 MacBook systemd-logind[2651]: System is powering down.
+Sep  1 18:37:49 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Sep  5 16:04:06 MacBook systemd-logind[2730]: New seat seat0.
+Sep  5 16:04:06 MacBook systemd-logind[2730]: Watching system buttons on /dev/input/event3 (Power Button)
+Sep  5 16:04:06 MacBook systemd-logind[2730]: Watching system buttons on /dev/input/event4 (Video Bus)
+Sep  5 16:04:06 MacBook systemd-logind[2730]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  5 16:04:06 MacBook systemd-logind[2730]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Sep  5 16:04:06 MacBook systemd-logind[2730]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  5 16:04:08 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  5 16:04:08 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  5 16:04:08 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  5 16:04:08 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  5 16:04:08 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Sep  5 16:04:08 MacBook systemd-logind[2730]: New session c1 of user lightdm.
+Sep  5 16:04:08 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Sep  5 16:04:08 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  5 16:04:08 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  5 16:04:08 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  5 16:04:08 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  5 16:04:08 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "10rd-j0n4th4n"
+Sep  5 16:04:15 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Sep  5 16:04:15 MacBook lightdm: pam_unix(lightdm:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  5 16:04:15 MacBook systemd: pam_unix(systemd-user:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  5 16:04:15 MacBook systemd-logind[2730]: New session c2 of user 10rd-j0n4th4n.
+Sep  5 16:04:17 MacBook gnome-keyring-daemon[3196]: The SSH agent was already initialized
+Sep  5 16:04:17 MacBook gnome-keyring-daemon[3196]: The Secret Service was already initialized
+Sep  5 16:04:17 MacBook gnome-keyring-daemon[3196]: The PKCS#11 component was already initialized
+Sep  5 16:04:17 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.44 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  5 16:06:08 MacBook systemd-logind[2730]: Removed session c1.
+Sep  5 16:06:08 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Sep  5 16:17:01 MacBook CRON[3720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 16:17:01 MacBook CRON[3720]: pam_unix(cron:session): session closed for user root
+Sep  5 17:15:19 MacBook sudo: 10rd-j0n4th4n : TTY=pts/6 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Sep  5 17:15:19 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  5 17:15:19 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 17:16:28 MacBook su[4906]: Successful su for root by 10rd-j0n4th4n
+Sep  5 17:16:28 MacBook su[4906]: + /dev/pts/6 10rd-j0n4th4n:root
+Sep  5 17:16:28 MacBook su[4906]: pam_unix(su:session): session opened for user root by 10rd-j0n4th4n(uid=1000)
+Sep  5 17:16:28 MacBook su[4906]: pam_systemd(su:session): Cannot create session: Already running in a session
+Sep  5 17:16:31 MacBook su[4906]: pam_unix(su:session): session closed for user root
+Sep  5 17:16:37 MacBook su[4918]: Successful su for 10rd-j0n4th4n by 10rd-j0n4th4n
+Sep  5 17:16:37 MacBook su[4918]: + /dev/pts/6 10rd-j0n4th4n:10rd-j0n4th4n
+Sep  5 17:16:37 MacBook su[4918]: pam_unix(su:session): session opened for user 10rd-j0n4th4n by 10rd-j0n4th4n(uid=1000)
+Sep  5 17:16:37 MacBook su[4918]: pam_systemd(su:session): Cannot create session: Already running in a session
+Sep  5 17:16:38 MacBook su[4918]: pam_unix(su:session): session closed for user 10rd-j0n4th4n
+Sep  5 17:17:01 MacBook CRON[4939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 17:17:01 MacBook CRON[4939]: pam_unix(cron:session): session closed for user root
+Sep  5 17:38:16 MacBook systemd-logind[2730]: System is powering down.
+Sep  5 17:38:16 MacBook systemd: pam_unix(systemd-user:session): session closed for user 10rd-j0n4th4n
+Sep  8 15:38:56 MacBook systemd-logind[2607]: New seat seat0.
+Sep  8 15:38:56 MacBook systemd-logind[2607]: Watching system buttons on /dev/input/event3 (Power Button)
+Sep  8 15:38:56 MacBook systemd-logind[2607]: Watching system buttons on /dev/input/event4 (Video Bus)
+Sep  8 15:38:56 MacBook systemd-logind[2607]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  8 15:38:56 MacBook systemd-logind[2607]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Sep  8 15:38:56 MacBook systemd-logind[2607]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  8 15:38:57 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  8 15:38:57 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  8 15:38:57 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  8 15:38:57 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  8 15:38:57 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Sep  8 15:38:57 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Sep  8 15:38:57 MacBook systemd-logind[2607]: New session c1 of user lightdm.
+Sep  8 15:38:58 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  8 15:38:58 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  8 15:38:58 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  8 15:38:58 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  8 15:38:58 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "10rd-j0n4th4n"
+Sep  8 15:40:54 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Sep  8 15:40:54 MacBook lightdm: pam_unix(lightdm:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  8 15:40:54 MacBook systemd-logind[2607]: New session c2 of user 10rd-j0n4th4n.
+Sep  8 15:40:54 MacBook systemd: pam_unix(systemd-user:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  8 15:40:55 MacBook gnome-keyring-daemon[3191]: The SSH agent was already initialized
+Sep  8 15:40:55 MacBook gnome-keyring-daemon[3191]: The Secret Service was already initialized
+Sep  8 15:40:55 MacBook gnome-keyring-daemon[3191]: The PKCS#11 component was already initialized
+Sep  8 15:40:55 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.43 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  8 15:41:14 MacBook systemd-logind[2607]: Removed session c1.
+Sep  8 15:41:14 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Sep  8 16:00:13 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  8 16:00:13 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  8 16:00:13 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  8 16:00:13 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  8 16:00:13 MacBook systemd-logind[2607]: Operation 'sleep' finished.
+Sep  8 16:00:13 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Sep  8 16:00:13 MacBook systemd-logind[2607]: New session c3 of user lightdm.
+Sep  8 16:00:13 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Sep  8 16:00:14 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  8 16:00:14 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  8 16:00:14 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  8 16:00:14 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  8 16:00:14 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "10rd-j0n4th4n"
+Sep  8 16:00:17 MacBook lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=10rd-j0n4th4n
+Sep  8 16:00:19 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  8 16:00:19 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  8 16:00:19 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  8 16:00:19 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  8 16:00:19 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "10rd-j0n4th4n"
+Sep  8 16:02:30 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Sep  8 16:02:50 MacBook systemd-logind[2607]: Removed session c3.
+Sep  8 16:02:50 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Sep  8 16:11:33 MacBook systemd-logind[2607]: System is powering down.
+Sep  8 16:14:03 MacBook systemd-logind[2479]: New seat seat0.
+Sep  8 16:14:03 MacBook systemd-logind[2479]: Watching system buttons on /dev/input/event3 (Power Button)
+Sep  8 16:14:03 MacBook systemd-logind[2479]: Watching system buttons on /dev/input/event4 (Video Bus)
+Sep  8 16:14:03 MacBook systemd-logind[2479]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  8 16:14:03 MacBook systemd-logind[2479]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Sep  8 16:14:03 MacBook systemd-logind[2479]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  8 16:14:04 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  8 16:14:04 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  8 16:14:04 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  8 16:14:04 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  8 16:14:04 MacBook lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Sep  8 16:14:04 MacBook systemd-logind[2479]: New session c1 of user lightdm.
+Sep  8 16:14:04 MacBook systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Sep  8 16:14:05 MacBook lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Sep  8 16:14:05 MacBook lightdm: PAM adding faulty module: pam_kwallet.so
+Sep  8 16:14:05 MacBook lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Sep  8 16:14:05 MacBook lightdm: PAM adding faulty module: pam_kwallet5.so
+Sep  8 16:14:05 MacBook lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "10rd-j0n4th4n"
+Sep  8 16:14:09 MacBook lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Sep  8 16:14:09 MacBook lightdm: pam_unix(lightdm:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  8 16:14:09 MacBook systemd: pam_unix(systemd-user:session): session opened for user 10rd-j0n4th4n by (uid=0)
+Sep  8 16:14:09 MacBook systemd-logind[2479]: New session c2 of user 10rd-j0n4th4n.
+Sep  8 16:14:10 MacBook gnome-keyring-daemon[3127]: The SSH agent was already initialized
+Sep  8 16:14:10 MacBook gnome-keyring-daemon[3127]: The Secret Service was already initialized
+Sep  8 16:14:10 MacBook gnome-keyring-daemon[3127]: The PKCS#11 component was already initialized
+Sep  8 16:14:10 MacBook polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.47 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  8 16:16:04 MacBook systemd-logind[2479]: Removed session c1.
+Sep  8 16:16:04 MacBook systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Sep  8 16:17:01 MacBook CRON[3841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  8 16:17:01 MacBook CRON[3841]: pam_unix(cron:session): session closed for user root
+Sep  8 16:19:35 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/apt-get remove ftp
+Sep  8 16:19:35 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:19:50 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:32:35 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/dpkg -r pidgin-libnotify pidgin-otr pidgin-data pidgin
+Sep  8 16:32:35 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:32:36 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:32:45 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/dpkg -r pidgin-data
+Sep  8 16:32:45 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:32:45 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:33:12 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/dpkg -r pidgin-data
+Sep  8 16:33:12 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:33:12 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:35:38 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/dpkg -P pidgin
+Sep  8 16:35:38 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:35:38 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:35:42 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/dpkg -P pidgin-data
+Sep  8 16:35:42 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:35:42 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:40:06 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/apt-get install libreoffice
+Sep  8 16:40:06 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:43:42 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:48:04 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/apt-get install k3b
+Sep  8 16:48:04 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:48:30 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:50:14 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/dpkg -r rsync
+Sep  8 16:50:14 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:50:15 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:50:27 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/usr/bin/dpkg -P rsync
+Sep  8 16:50:27 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:50:28 MacBook sudo: pam_unix(sudo:session): session closed for user root
+Sep  8 16:54:15 MacBook sudo: 10rd-j0n4th4n : TTY=pts/1 ; PWD=/home/jonathan ; USER=root ; COMMAND=/bin/su
+Sep  8 16:54:15 MacBook sudo: pam_unix(sudo:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:54:16 MacBook su[938]: Successful su for root by root
+Sep  8 16:54:16 MacBook su[938]: + /dev/pts/1 root:root
+Sep  8 16:54:16 MacBook su[938]: pam_unix(su:session): session opened for user root by 10rd-j0n4th4n(uid=0)
+Sep  8 16:54:16 MacBook su[938]: pam_systemd(su:session): Cannot create session: Already running in a session
+Sep  8 17:13:29 MacBook dbus[2372]: [system] Failed to activate service 'org.bluez': timed out
+Sep  8 17:17:01 MacBook CRON[4620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  8 17:17:01 MacBook CRON[4620]: pam_unix(cron:session): session closed for user root

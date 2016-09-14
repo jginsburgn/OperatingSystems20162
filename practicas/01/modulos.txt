@@ -1,0 +1,107 @@
+Module                  Size  Used by
+drbg                   32768  1
+ansi_cprng             16384  0
+ctr                    16384  2
+ccm                    20480  2
+rfcomm                 69632  0
+bnep                   20480  0
+arc4                   16384  2
+b43                   417792  0
+mac80211              745472  1 b43
+cfg80211              573440  2 b43,mac80211
+ssb                    65536  1 b43
+joydev                 20480  0
+applesmc               20480  0
+input_polldev          16384  1 applesmc
+nls_iso8859_1          16384  1
+intel_rapl             20480  0
+x86_pkg_temp_thermal    16384  0
+intel_powerclamp       16384  0
+coretemp               16384  0
+kvm_intel             172032  0
+kvm                   544768  1 kvm_intel
+irqbypass              16384  1 kvm
+crct10dif_pclmul       16384  0
+crc32_pclmul           16384  0
+aesni_intel           167936  4
+aes_x86_64             20480  1 aesni_intel
+lrw                    16384  1 aesni_intel
+snd_hda_codec_hdmi     53248  1
+gf128mul               16384  1 lrw
+glue_helper            16384  1 aesni_intel
+ablk_helper            16384  1 aesni_intel
+cryptd                 20480  2 aesni_intel,ablk_helper
+snd_hda_codec_cirrus    20480  1
+snd_hda_codec_generic    77824  1 snd_hda_codec_cirrus
+snd_hda_intel          40960  3
+snd_hda_codec         135168  4 snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_intel,snd_hda_codec_cirrus
+snd_hda_core           69632  5 snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec,snd_hda_intel,snd_hda_codec_cirrus
+snd_hwdep              16384  1 snd_hda_codec
+snd_pcm               106496  4 snd_hda_codec_hdmi,snd_hda_codec,snd_hda_intel,snd_hda_core
+snd_seq_midi           16384  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+btusb                  45056  0
+btrtl                  16384  1 btusb
+snd_rawmidi            32768  1 snd_seq_midi
+btbcm                  16384  1 btusb
+btintel                16384  1 btusb
+bluetooth             520192  9 bnep,btbcm,btrtl,btusb,rfcomm,btintel
+input_leds             16384  0
+uvcvideo               90112  0
+videobuf2_vmalloc      16384  1 uvcvideo
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         28672  1 uvcvideo
+videobuf2_core         36864  2 uvcvideo,videobuf2_v4l2
+v4l2_common            16384  1 videobuf2_v4l2
+snd_seq                69632  2 snd_seq_midi_event,snd_seq_midi
+bcm5974                16384  0
+videodev              176128  4 uvcvideo,v4l2_common,videobuf2_core,videobuf2_v4l2
+media                  24576  2 uvcvideo,videodev
+snd_seq_device         16384  3 snd_seq,snd_rawmidi,snd_seq_midi
+snd_timer              32768  2 snd_pcm,snd_seq
+lpc_ich                24576  0
+bcma                   53248  1 b43
+snd                    81920  17 snd_hwdep,snd_timer,snd_hda_codec_hdmi,snd_pcm,snd_seq,snd_rawmidi,snd_hda_codec_generic,snd_hda_codec,snd_hda_intel,snd_seq_device,snd_hda_codec_cirrus
+soundcore              16384  1 snd
+mei_me                 36864  0
+mei                    98304  1 mei_me
+sbs                    16384  0
+sbshc                  16384  1 sbs
+acpi_als               16384  0
+kfifo_buf              16384  1 acpi_als
+industrialio           57344  2 acpi_als,kfifo_buf
+apple_gmux             16384  0
+apple_bl               16384  1 apple_gmux
+mac_hid                16384  0
+shpchp                 36864  0
+cuse                   16384  3
+parport_pc             32768  0
+ppdev                  20480  0
+lp                     20480  0
+parport                49152  3 lp,ppdev,parport_pc
+autofs4                40960  2
+hid_generic            16384  0
+hid_apple              16384  0
+hid_appleir            16384  0
+i915                 1208320  3
+usbhid                 49152  0
+hid                   118784  4 hid_generic,usbhid,hid_appleir,hid_apple
+i2c_algo_bit           16384  1 i915
+ahci                   36864  5
+libahci                32768  1 ahci
+drm_kms_helper        147456  1 i915
+sdhci_pci              28672  0
+firewire_ohci          40960  0
+syscopyarea            16384  1 drm_kms_helper
+sdhci                  45056  1 sdhci_pci
+sysfillrect            16384  1 drm_kms_helper
+tg3                   163840  0
+firewire_core          65536  1 firewire_ohci
+sysimgblt              16384  1 drm_kms_helper
+crc_itu_t              16384  1 firewire_core
+fb_sys_fops            16384  1 drm_kms_helper
+ptp                    20480  1 tg3
+pps_core               20480  1 ptp
+drm                   364544  5 i915,drm_kms_helper
+fjes                   28672  0
+video                  40960  2 i915,apple_gmux
