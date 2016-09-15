@@ -1,0 +1,16 @@
+20160915:
+	Command to display system information: uname with flags -a, -r and, -i;	
+	Command to make a tar.gz: tar zcvf <file> [<file> ...]
+	A tar is a file that brings other files together as a backup keeping permissions untouched;
+	A gz is a compressed file that brings files together and makes them smaller;
+	A tar.gz brings the last two together;
+	To list all installed packages in Red Hat rpm -qa
+	To list all installed files in Red Hat that are dependencies of a package rmp -ql <package>
+	To remove an installed package: rpm -e <package>
+	If an error of failed dependencies occurs we need to re search the name of the package and try again:
+		rpm -qa | grep -i <package that threw an error>
+	To remove an installed package leaving installed its dependencies: rmp -e --nodeps <package>
+
+alias rp='rpm -e'
+alias sp='rpm -qa | grep -i'
+alias frp='rpm -e --nodeps'
