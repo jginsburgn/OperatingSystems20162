@@ -1,0 +1,19 @@
+20160919:
+	Para revisar que paquete instalo un archivo en especifico se corre el comando:
+		En Fedora: rmp -qf <ruta_absoluta_de_archivo>
+		En Ubuntu: dpkg -S <ruta_absoluta_de_archivo>
+	Para listar todos los archivos que instalo un paquete se corre el comando:
+		En Fedora: rpm -ql <nombre_de_paquete>
+		En Ubuntu: dpkg -L <nombre_de_paquete>
+	Para saber en donde se encuentra un ejecutable se utiliza:
+		En Fedora y en Ubuntu: whereis <nombre_de_ejecutable>
+	Para instalar un paquete:
+		En Fedora: rpm -i <paquete>
+		En Ubuntu: dpkg -i <paquete>
+	Para remover un paquete:
+		En Fedora: rpm -e <nombre_de_paquete>, o para ignorar la eliminacion de las dependencias del paquete rpm -e --nodeps <nombre_de_paquete>
+		En Ubuntu: dpkg -r <nombre_de_paquete>, y para limiar dpkg -P <nombre_de_paquete>
+	Para ver los contenidos de un tar.gz se utiliza:
+		tar ztvf <archiv_tar>
+	Para ver el porcentaje de la bateria:
+		upower -d | grep -i percentage | tail -n 1
