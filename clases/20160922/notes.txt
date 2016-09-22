@@ -1,0 +1,15 @@
+20160922:
+	Para copiar|pegar en GUI (o en terminal con compatibilidad GUI) se usa:
+		Shift+Ctrl+(C|V)
+	Para copiar|pegar en modo texto se usa:
+		Ctrl+(U|Y)
+	Para definir variables de ambiente:
+		En bash, bsh, ksh:
+			export <variable>=<valor_de_variable>
+		En otros como csh, tcsh:
+			setenv <variable>=<valor_de_variable>
+	Para ver el contenido de una variable se usa:
+		echo $<variable>
+	La variable de ambiente donde se guardan las rutas a los ejecutables/comandos es: PATH
+	La variable PATH no viene bien configurada comunmente, debe tener el valor especificado en ./setenvvars.sh
+	La variable LD_LIBRARY_PATH no viene bien configurada comunmnete, debe tener el valor especificado en ./setenvvars.sh
