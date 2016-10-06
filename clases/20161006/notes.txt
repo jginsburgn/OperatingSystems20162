@@ -1,0 +1,8 @@
+20161006:
+	Para deshabilitar la cuenta de Guest en Ubuntu con ambiente grafico XFCE hacer:
+		$	printf "[SeatDefaults]\nallow-guest=false" >> /usr/share/lightdm/lightdm.conf.d/50-no-guest.conf
+	Para remover a un usuario de un grupo se hace, desde root:
+		#	deluser <usuario> <grupo>
+	Es recomendable eliminar a los usuarios regulares (los que no son root) de los grupos: adm (sirve para logs), sudo (sirve para hacer sudo), y de lpadmin (para hacer impresiones)
+	Para saber el porcentaje de bateria disponible se usa:
+		$	upower -d | grep percentage | tail -n 1 | awk '{print $2}'
