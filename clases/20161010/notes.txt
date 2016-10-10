@@ -1,0 +1,16 @@
+20161010:
+	Para ver los comandos hijos de la terminal actual se usa:
+		$ ps
+	Para ver todos los comandos se usa:
+		$ ps -fea
+	Los estados de procesos son los siguientes:
+		1. new: Es el estado en la que se asigna espacio en memoria RAM, de la siguiente forma
+			a) Text: se guarda el codigo maquina del programa que corresponde al proceso;
+			b) Data: se guardan las variables de memoria estatica y cierta informacion intrinseca del proceso (e.g. Process Control Block: PID, PPID, Contador de Programa, ID de Usuario Dueño, Los Limites de Memoria, la lista de archivos abiertos, una copia de los registros de CPU, El estado del proceso);
+			c) Heap: se guardan las variables de memoria dinamica;
+			d) Stack: se guardan los operandos y operadores por utilizar;
+		2. ready: El proceso esta esperando tiempo de ejecucion en CPU;
+		3. running: El proceso se esta ejecutando en CPU;
+		4. waiting: El proceso esta esperando un evento o una accion de I/O;
+		5. terminated: El proceso muere y se libera el espacio en RAM y se limpia su informacion de la cola de procesos en el kernel;
+	Thread son los procesos hijos de procesos que se disparan; hoy se pueden utilizar los terminos proceso y thread indiferentemente;
