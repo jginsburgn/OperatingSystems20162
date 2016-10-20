@@ -1,0 +1,6 @@
+20161020:
+	Para dividir la salidad de una tabla con separadores se utiliza:
+		$ cut -d"<caracter-delimitador>" -fN,M
+	donde el <caracter-delimitador> es el que limita las columnas y los renglones son por linea, despues en el argumento de -f es la seleccion de columnas y en el caso anterior se seleccionaria la columan N y la M; tambien se puede usar:
+		$ cut -d"<caracter-delimitador>" -fN-M
+	donde se selecciona un rango de columans en el intervalo cerrado [N, M].
