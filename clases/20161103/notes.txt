@@ -1,0 +1,10 @@
+20161103:
+	1) User Threads vs. Kernel Threads: Los User Threads son los que lanzan las aplicaciones de usuario y a su vez el kernel lanza Kernel Threads para gestionar a estos que se lanzaron. Existen varios modelos de multithreading:
+		1.1) One-to-Many: un Kernel Thread maneja muchos User Threads;
+		1.2) One-to-One: un Kernel Thread se lanza por cada User Thread;
+		1.3) Many-to-Many: se diversifica el gestionamiento de User Threads en varios Kernel Threads;
+		1.4) Two-Level: se combina el modelo Many-to-Many con One-to-One.
+	2) Preemtive vs. Nonpreemptive: preemptive (apropiativo) es cuando surge un cambio de estado de proceso iniciado por el planificador (e.g. cuando el proceso es removido de running y es formado en ready, por parte del planificador) y nonpreemptive (no apropiativo) es cuando surge un cambio de estado iniciado por el mismo proceso (e.g. cuando el proceso llega a su linea de salida y cambia de estado running a estado terminated).
+	3) Dispatcher (Despachador de Procesos) vs. Scheduler (Planificador de Procesos): el planificador de procesos es el que decide realizar cambios apropiativos de procesos (e.g. de ready a running) y el despachador de procesos es el que se encarga de hacer el context switching (i.e. cambio de PCBs [Process Control Block]).
+	4) Long-Term vs. Short-Term Schedulers: los de largo plazo son los que se encargan de las colas en los estados de new y terminated y los de corto plazo son los que se encargan de las transiciones de estados de procesos entre running, ready y waiting; a veces la accion de un despachador de largo plazo puede causar accion de un despachador de corto plazo, por ejemplo cuando un proceso va a terminated el de corto plazo necesita poner a otro proceso en running para no perder tiempo de procesamiento de CPU.
+
