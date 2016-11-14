@@ -1,0 +1,15 @@
+20161114:
+	Para escanear los puertos abiertos de una computadora (local o remota) se utiliza:
+		# nmap -sTU <host>, (e.g. <host> = localhost)
+	Para mostrar los servicios actuales se utiliza:
+		# systemctl --all --no-page
+	Para detener un servicio se utiliza:
+		# systemctl stop <service-name>
+	Para deshabilitar que un servicio se encienda en el siguiente reinicio se utiliza:
+		# systemctl disable <service-name>
+	Para mostrar los puertos abiertos de la computadora local se utiliza:
+		# netstat -tuanp
+	Para encender el servidor web en Fedora:
+		# service httpd start
+	Para habilitar el encendido automatico de servidor web en Fedora se utiliza:
+		# systemctl enable httpd
