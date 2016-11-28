@@ -8,7 +8,7 @@ public class JGRoundRobin {
     private int currentProcess = -1;
     private double time = 0;
     private double nextQuantum = -1;
-    public Gantt gantt = new Gantt();
+    public Gantt gantt;
 
     public enum Event {
         NewProcess,
@@ -23,6 +23,7 @@ public class JGRoundRobin {
             processes.add((JGProcess)newProcesses.get(i).clone());
             remainingTime.put(processes.get(i).PID, processes.get(i).duration);
         }
+        gantt = new Gantt(processes);
         start();
     }
 

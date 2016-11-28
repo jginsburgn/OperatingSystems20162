@@ -16,7 +16,7 @@ public class JGPriorityScheduler {
     private HashMap<Integer, Double> remainingTime = new HashMap<Integer, Double>();
     private int currentProcess = -1;
     private double time = 0;
-    public Gantt gantt = new Gantt();
+    public Gantt gantt;
 
     private enum Event {
         NewProcess,
@@ -28,6 +28,7 @@ public class JGPriorityScheduler {
             processes.add((JGProcess)newProcesses.get(i).clone());
             remainingTime.put(processes.get(i).PID, processes.get(i).duration);
         }
+        gantt = new Gantt(processes);
         start();
     }
 
